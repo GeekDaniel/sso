@@ -1,0 +1,13 @@
+server:
+  port: 7777
+  context-path: /
+
+logging.level.com.piaoniu:
+  info
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+mybatis:
+  type-aliases-package: com.piaoniu.entity
